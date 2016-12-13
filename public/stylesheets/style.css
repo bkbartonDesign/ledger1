@@ -1,0 +1,71 @@
+.card-deck{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+}
+
+.card
+{
+    display:flex;
+    flex-direction:row;
+    flex:1;
+    border:1px solid black;
+    height:80px;
+}
+
+.card-data{
+    display:flex;
+    flex-direction:column;
+    width:85%;
+    min-height:100%;
+    /*background-color:yellow;*/
+    /*justify-content:center;*/
+}
+
+.card-data > div{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.card-dttm{
+    /*background-color:teal;*/
+    font-size:.75rem;
+}
+
+.card-title{
+    font-size:1rem;   
+    background-color:pink;
+}
+
+
+.card-dttm, .card-info{
+    height:40%;
+}
+
+.card-title, .card-add{
+    height:60%;
+}
+
+.card-controls{    
+    width:20%;
+}
+
+.card-info{
+    /*height:40%;*/
+    /*background-color:lime;*/
+    position:relative;
+}
+.card-add{
+    /*background-color:magenta;*/
+    /*height:60%;*/
+    position:relative;
+}
+
+.add-btn, .info-btn{
+    width:100%;
+    height:100%;
+    position:absolute;
+}
